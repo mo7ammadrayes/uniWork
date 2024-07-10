@@ -1,0 +1,397 @@
+.gamepane {
+  -fx-background-color: black;
+}
+
+.intro {
+  -fx-background-color: black;
+}
+
+.lobby-background {
+  -fx-background-image: url("../images/93210.jpg");
+  -fx-background-size: cover;
+}
+
+.instcrScene-background {
+  -fx-background-image: url("../images/91656.jpg");
+  -fx-background-size: cover;
+}
+.multP-background {
+  -fx-background-image: url("../images/5680736.jpg");
+  -fx-background-size: cover;
+}
+.scores-background {
+  -fx-background-image: url("../images/3d-rendering-computer-desk.jpg");
+  -fx-background-size: cover;
+}
+.menu-background {
+  -fx-background-image: url("../images/1.jpg");
+  -fx-background-size: cover;
+}
+.newmenu-background {
+  -fx-background-image: url("../images/2968889.jpg");
+  -fx-background-size: cover;
+}
+
+.challenge-background {
+  -fx-background-image: url("../images/2.jpg");
+  -fx-background-size: cover;
+}
+.newchallenge-background {
+  -fx-background-image: url("../images/2613089.jpg");
+  -fx-background-size: cover;
+}
+
+.menu {
+  -fx-padding: 10;
+}
+
+.menuItem {
+  -fx-background-color: linear-gradient(to bottom, #ff8c00, #ff4500);
+  -fx-font-family: 'Orbitron';
+  -fx-font-size: 20px;
+  -fx-text-fill: white;
+  -fx-font-weight: 700;
+  -fx-border-color: white;
+  -fx-border-width: 2px; /* Adjust the width as needed */
+  -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.7), 3, 0, 0, 0);
+  -fx-padding: 10 20 10 20; /* Padding for top, right, bottom, left */
+
+  /* Create a pixel effect using a dashed border and adjusting the dash lengths */
+  -fx-border-style: solid inside;
+  -fx-border-width: 3;
+  -fx-border-insets: -1;
+  -fx-border-radius: 0;
+  -fx-border-color: linear-gradient(to bottom, #ff8c00, #ff4500);
+
+}
+
+
+.menuItem:hover {
+  -fx-fill: yellow;
+}
+
+.menuItem.selected {
+  -fx-fill: yellow;
+}
+
+.bigtitle {
+  -fx-fill: yellow;
+  -fx-font-family: 'Orbitron';
+  -fx-font-size: 64px;
+  -fx-font-weight: 900;
+  -fx-border-color: black;
+  -fx-stroke: black;
+  -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+
+.title {
+  -fx-fill: white;
+  -fx-font-family: 'Orbitron';
+  -fx-font-size: 32px;
+  -fx-font-weight: 900;
+  -fx-border-color: black;
+  -fx-stroke: black;
+  -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+
+.smalltitle {
+  -fx-fill: white;
+  -fx-font-family: 'Orbitron';
+  -fx-font-size: 16px;
+  -fx-font-weight: 900;
+  -fx-border-color: black;
+  -fx-stroke: black;
+  -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+
+.heading {
+  -fx-fill: white;
+  -fx-font-family: 'Orbitron';
+  -fx-font-size: 20px;
+  -fx-font-weight: 700;
+  -fx-border-color: black;
+  -fx-stroke: black;
+  -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+
+.score {
+  -fx-fill: yellow;
+  -fx-font-family: 'Orbitron';
+  -fx-font-size: 36px;
+  -fx-font-weight: 700;
+  -fx-border-color: black;
+  -fx-stroke: black;
+  -fx-text-alignment: center;
+  -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+
+.level {
+  -fx-fill: #ff6600;
+  -fx-font-family: 'Orbitron';
+  -fx-font-size: 24px;
+  -fx-font-weight: 700;
+  -fx-border-color: black;
+  -fx-stroke: black;
+  -fx-text-alignment: center;
+  -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+
+.multP {
+  -fx-fill: #ff6600;
+  -fx-font-family: 'Orbitron';
+  -fx-font-size: 22px;
+  -fx-font-weight: 700;
+  -fx-border-color: black;
+  -fx-stroke: black;
+  -fx-text-alignment: center;
+  -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+
+}
+
+.hiscore {
+  -fx-fill: orange;
+  -fx-font-family: 'Orbitron';
+  -fx-font-size: 24px;
+  -fx-font-weight: 700;
+  -fx-border-color: black;
+  -fx-stroke: black;
+  -fx-text-alignment: center;
+  -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+
+.lives {
+  -fx-fill: yellow;
+  -fx-font-family: 'Orbitron';
+  -fx-font-size: 36px;
+  -fx-font-weight: 700;
+  -fx-border-color: black;
+  -fx-stroke: black;
+  -fx-text-alignment: center;
+  -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+
+.scorelist {
+  -fx-font-size: 20px;
+  -fx-font-family: 'Orbitron';
+}
+
+.scoreitem {
+
+}
+
+.scorer {
+
+}
+
+.myscore {
+  -fx-font-weight: 700;
+}
+
+.deadscore {
+  -fx-strikethrough: true;
+}
+
+.points {
+}
+
+.channelList {
+
+}
+
+.channelItem {
+  -fx-fill: white;
+  -fx-font-family: 'Orbitron';
+  -fx-font-size: 16px;
+  -fx-font-weight: 700;
+  -fx-border-color: black;
+  -fx-stroke: black;
+}
+
+.channelItem.selected {
+  -fx-background-color: transparent; /* No background */
+  -fx-font-family: 'Orbitron'; /* Specify your font */
+  -fx-font-size: 20px; /* Adjust the size as needed */
+  -fx-text-fill: yellow; /* Color of the text */
+  -fx-font-weight: 700; /* Font weight, if needed */
+  -fx-border-color: transparent; /* No border */
+  -fx-padding: 0; /* No padding */
+  -fx-effect: none; /* No shadow or other effects */
+
+}
+
+.leaderboard {
+  -fx-font-size: 16px;
+}
+
+.gameBox {
+  -fx-padding: 10;
+  -fx-background-color: rgba(0, 0, 0, 0.5);
+  -fx-border-color: white;
+  -fx-border-width: 1;
+}
+
+.scroller {
+  -fx-background-color: transparent;
+}
+
+.scroller .viewport {
+  -fx-background-color: transparent;
+}
+
+.messages {
+  -fx-background-color: transparent;
+  -fx-font-size: 17px;
+  -fx-fill: white;
+}
+
+.leaderboardtext {
+  -fx-background-color: transparent;
+  -fx-font-size: 17px;
+  -fx-fill: yellow;
+}
+
+.messages Text {
+  -fx-fill: white;
+}
+
+TextField {
+  -fx-border-color: white;
+  -fx-border-width: 1px;
+  -fx-background-color: rgba(0, 0, 0, 0.5);
+  -fx-text-fill: white;
+  -fx-prompt-text-fill: grey;
+}
+
+.playerBox {
+  -fx-font-size: 14px;
+  -fx-font-family: 'Orbitron';
+}
+
+.playerBox Text {
+  -fx-fill: white;
+}
+
+.myname {
+  -fx-font-weight: 700;
+}
+
+.instructions {
+  -fx-font-size: 10px;
+  -fx-font-family: 'Orbitron';
+  -fx-fill: white;
+}
+
+.lobby-background {
+  -fx-background-color: #2c3e50;
+}
+
+.panel {
+  -fx-background-color: #34495e;
+  -fx-border-color: #ecf0f1;
+  -fx-border-width: 2px;
+}
+
+.title-text {
+  -fx-fill: #ecf0f1;
+  -fx-font-size: 20px;
+}
+
+.chat-area {
+  -fx-background-color: #95a5a6;
+  -fx-padding: 10px;
+}
+
+.message-input {
+  -fx-pref-height: 30px;
+}
+
+.message-input-area {
+  -fx-alignment: center;
+}
+
+.host-button, .send-button {
+  -fx-background-color: transparent; /* No background */
+  -fx-font-family: 'Orbitron'; /* Specify your font */
+  -fx-font-size: 20px; /* Adjust the size as needed */
+  -fx-text-fill: white; /* Color of the text */
+  -fx-font-weight: 700; /* Font weight, if needed */
+  -fx-border-color: transparent; /* No border */
+  -fx-padding: 0; /* No padding */
+  -fx-effect: none; /* No shadow or other effects */
+}
+.host-button, .send-button {
+  -fx-background-color: transparent; /* No background */
+  -fx-font-family: 'fantasy'; /* Specify your font */
+  -fx-font-size: 20px; /* Adjust the size as needed */
+  -fx-text-fill: white; /* Color of the text */
+  -fx-font-weight: 700; /* Font weight, if needed */
+  -fx-border-color: transparent; /* No border */
+  -fx-padding: 0; /* No padding */
+  -fx-effect: none; /* No shadow or other effects */}
+
+.siu{  -fx-background-color: transparent; /* No background */
+  -fx-font-family: 'cursive'; /* Specify your font */
+  -fx-font-size: 20px; /* Adjust the size as needed */
+  -fx-text-fill: yellow; /* Color of the text */
+  -fx-font-weight: 700; /* Font weight, if needed */
+  -fx-border-color: transparent; /* No border */
+  -fx-padding: 0; /* No padding */
+  -fx-effect: none; /* No shadow or other effects */
+
+}
+.chatfeildbuttons {
+  -fx-background-color: linear-gradient(to bottom, #ff8c00, #ff4500);
+  -fx-font-family: 'Orbitron';
+  -fx-font-size: 10px;
+  -fx-text-fill: white;
+  -fx-border-color: white;
+  -fx-border-width: 1px;
+  -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.7), 3, 0, 0, 0);
+  -fx-padding: 10 20 10 20;
+}
+.intro-pane {
+  -fx-background-color: linear-gradient(to bottom, #2e002e, #00003c);
+  -fx-alignment: center;
+}
+
+
+.intro-text {
+  -fx-font-size: 36px;
+  -fx-fill: white;
+  -fx-font-weight: bold;
+}
+.mysiu {
+  -fx-background-color: transparent;
+  -fx-background-insets: 0;
+}
+
+/* Targeting the viewport within the ScrollPane */
+.mysiu .viewport {
+  -fx-background-color: transparent;
+}
+
+/* Style for the vertical scrollbar */
+.mysiu .scroll-bar:vertical {
+  -fx-background-color: transparent;
+  -fx-background-insets: 0;
+}
+
+/* Style for the thumb of the vertical scrollbar */
+.mysiu .scroll-bar:vertical .thumb {
+  -fx-background-color: derive(#939393, 80%);
+  -fx-background-insets: 2;
+  -fx-background-radius: 4;
+}
+
+/* Style for the horizontal scrollbar */
+.mysiu .scroll-bar:horizontal {
+  -fx-background-color: transparent;
+  -fx-background-insets: 0;
+}
+
+/* Style for the thumb of the horizontal scrollbar */
+.mysiu .scroll-bar:horizontal .thumb {
+  -fx-background-color: derive(#939393, 80%);
+  -fx-background-insets: 2;
+  -fx-background-radius: 4;
+}
