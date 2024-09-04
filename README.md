@@ -8,11 +8,11 @@ This repository contains my coursework and projects completed at the **Universit
 
 The repository is organized by the following modules:
 
-- **COMP1206 - Advanced Programming**  
-  Includes projects such as [Teterecs](./COMP1206/README.md), a Tetris-inspired game developed using Java and JavaFX.
+- **COMP1206 - Programming**  
+  Contains assignments and projects focused on Java programming, object-oriented design, and problem-solving. Includes the project [Teterecs](./COMP1206/Teterecs/README.md), a Tetris-inspired game developed using Java and JavaFX.
 
 - **COMP1204 - Data Management**  
-  Contains assignments and projects focused on data structures, databases, and data manipulation techniques.
+  Contains assignments and projects related to data management, database systems, and data handling techniques.
 
 ## Purpose
 
